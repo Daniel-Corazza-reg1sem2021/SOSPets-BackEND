@@ -1,4 +1,4 @@
-/* package com.tcc.sospets.configuration;
+package com.tcc.sospets.configuration;
 
 
 import java.io.IOException;
@@ -64,4 +64,4 @@ public class JwtRequestFilter extends OncePerRequestFilter {
 
 }
 
- */
+

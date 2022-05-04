@@ -21,7 +21,7 @@ public class Feedback {
     private String feedbackId;
 
     @ManyToOne(cascade = CascadeType.ALL)
-    @JoinColumn(name = "usuarioId")
+    @JoinColumn(name = "usuarioId", nullable = false)
     private Usuario usuario;
 
 
